@@ -1,0 +1,78 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0d1117;
+  color: white;
+  line-height: 1.6;
+}
+
+
+header {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+header h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+nav {
+  background: #161b22;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #00c6ff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: white;
+}
+
+
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+} 
+
+.card {
+  background: #161b22;
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 12px;
+  border: 1px solid #00c6ff;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+h2 {
+  color: #00c6ff;
+  margin-bottom: 15px;
+}
+
+/* RODAPÉ */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #161b22;
+  margin-top: 40px;
+  color: #aaa;
+}
